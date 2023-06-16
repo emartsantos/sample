@@ -194,15 +194,15 @@ header h1 {
         padding: 10px 20px;
         right: 0;
         flex-direction: column;
-        top: 50%;
+        top: 58%;
         background-color: #00000030;
         border-radius: 10px 0px 0px 10px;
-        left: 89%;
-        height: 70%;
+        left: 77%;
+        height: 80%;
     }
 
     .thumb li img {
-        width: 45px;
+        width: 50px;
         height: auto;
     }
 
@@ -212,6 +212,6 @@ header h1 {
 
     .cicle {
         clip-path: circle(776px at right 1037px);
-        top: 26rem;
+        top: 75rem;
     }
 }
