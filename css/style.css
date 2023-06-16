@@ -181,6 +181,7 @@ header h1 {
 @media screen and (max-width: 1300px){
     .container {
         flex-direction: column-reverse;
+        margin: 135px 0px auto;
     }
 
     .container .content {
@@ -213,5 +214,19 @@ header h1 {
     .cicle {
         clip-path: circle(776px at right 1037px);
         top: 75rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .thumb {
+        height: 70%;
+    }
+
+    .container {
+        padding: 0px 30px;
+    }
+
+    .cicle {
+        top: 32rem;
     }
 }
