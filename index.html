@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strawhat Pirates</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="cicle"></div>
+    <header>
+        <h1>STRAWHAT PIRATES</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div class="content">
+                <h2>Monkey D. <b><br>LUFFY</b></h2>
+                <p>Monkey D. Luffy, also known as <b>"Straw Hat Luffy"</b> and commonly as <b>"Straw Hat"</b>, is the founder and captain of the increasingly infamous and powerful Straw Hat Pirates, as well as the most powerful of its top fighters. He desires to find the legendary treasure left behind by the late Gol D. Roger and thereby become the Pirate King, which would help facilitate an unknown dream of his that he has told only to Shanks, his brothers, and crew. He believes that being the Pirate King means having the most freedom in the world.</p>
+            </div>
+            <img src="./images/luffy.png" class="crew" alt="luffysa">
+        </div>
+        <ul class="thumb">
+            <li id="luffy"><img src="./images/luffy.png" id="color" alt="luffy" onclick="imgSlider('./images/luffy.png');chngColor()"></li>
+            <li id="zoro"><img src="./images/zoro.png" id="color" alt="zoro" onclick="imgSlider('./images/zoro.png');chngColor()"></li>
+            <li class="usopp"><img src="./images/usopp.png" alt="usopp" onclick="imgSlider('./images/usopp.png');"></li>
+            <li class="nami"><img src="./images/nami.png" alt="nami" onclick="imgSlider('./images/nami.png')"></li>
+            <li class="sanji"><img src="./images/sanji.png" alt="sanji" onclick="imgSlider('./images/sanji.png');"></li>
+            <li class="robin"><img src="./images/robin.png" alt="robin" onclick="imgSlider('./images/robin.png');"></li>
+            <li class="chopper"><img src="./images/chopper.png" alt="chopper" onclick="imgSlider('./images/chopper.png');"></li>
+            <li class="franky"><img src="./images/franky.png" alt="franky" onclick="imgSlider('./images/franky.png');"></li>
+            <li class="brook"><img src="./images/brook.png" alt="brook" onclick="imgSlider('./images/brook.png');"></li>
+            <li class="jinbei"><img src="./images/jinbei.png" alt="jinbei" onclick="imgSlider('./images/jinbei.png');"></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        // const luffy = document.querySelector('#luffy');
+
+        // luffy.addEventListener('click', function onClick(event){
+        //     document.body.style.backgroundColor = '#d9382b';
+        // })
+        
+        
+        function imgSlider(anything){
+            document.querySelector('.crew').src = anything;
+        }
+
+        function chngColor(){
+            console.log(document.querySelector('li').id);
+        }
+    </script>
+</body>
+</html>
